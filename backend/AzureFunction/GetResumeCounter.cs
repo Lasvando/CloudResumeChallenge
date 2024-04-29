@@ -40,8 +40,8 @@ namespace Company.Function
                 var documentUpdateResponse = await container.ReplaceItemAsync(document, documentId, new PartitionKey(documentId));
 
                 string jsonResponse = JsonSerializer.Serialize(documentUpdateResponse.Resource);
-                return new OkObjectResult("CIAOCIAOCIAO");
-                //return new OkObjectResult(jsonResponse);
+
+                return new OkObjectResult(jsonResponse);
             }
             catch (CosmosException ex)
             {
