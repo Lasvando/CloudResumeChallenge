@@ -1,6 +1,20 @@
-@media (prefers-color-scheme: dark) {
-    body{
-        background-color: #333;
-        color: white;
-    }
+body{
+    background-color: #1a2324;
+    color: white;
+}
+
+.card{
+    background-color: #2f3838;
+    color: white;
+}
+
+.accordion, .accordion-item, .accordion-button{
+    background-color: #464d4e;
+    border-color: #2f3838;
+    color: white;
+}
+
+.link{
+    text-decoration: none;
+    color: #00d9e8;
 }
